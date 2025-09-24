@@ -1,4 +1,3 @@
-
 # Awsome-x402
 
 A curated list of awesome things related to **x402**, a payments protocol that revives the HTTP 402 "Payment Required" status code for instant, machine-to-machine payments.
@@ -16,6 +15,39 @@ The x402 protocol is an open standard that enables onchain payments directly ove
 
 ---
 
+---
+
+### **Learning & Education**
+
+Tutorials, articles, and guides to help you get started with x402.
+
+* **x402 Quickstart Guide:** [https://docs.cdp.coinbase.com/x402/docs/quickstart](https://docs.cdp.coinbase.com/x402/docs/quickstart)
+* **Coinbase Developer Blog:** [https://www.coinbase.com/blog/introducing-x402-a-payments-protocol-for-ai-and-web3](https://www.coinbase.com/blog/introducing-x402-a-payments-protocol-for-ai-and-web3)
+    * Official announcement of x402.
+
+---
+
+
+### **Server Implementations**
+
+
+* **x402proxy:** [https://github.com/skalenetwork/x402proxy](https://github.com/skalenetwork/x402proxy)
+    * x402 server implementation to instantly add x402 payments for Base and SKALE networks
+* **x402-Solana:** [https://github.com/8bitsats/x402-Solana](https://github.com/8bitsats/x402-Solana)
+    * Official documentation and a reference implementation for x402 on the Solana blockchain.
+
+### **Client library Implementations**
+
+* **x402-js:** [https://github.com/x402-foundation/x402-js](https://github.com/x402-foundation/x402-js)
+    * A JavaScript library to easily interact with the x402 protocol.
+* **OnchainKit:** [https://docs.cdp.coinbase.com/onchainkit/docs/welcome](https://docs.cdp.coinbase.com/onchainkit/docs/welcome)
+    * A library for building onchain apps.
+* **QuickNode:** [https://www.quicknode.com/guides/onchain-transactions/how-to-send-transactions-with-x402-and-coinbase](https://www.quicknode.com/guides/onchain-transactions/how-to-send-transactions-with-x402-and-coinbase)
+
+
+
+---
+
 ### **Ecosystem & Projects**
 
 Projects, tools, and platforms that are building on or integrating with x402.
@@ -28,33 +60,6 @@ Projects, tools, and platforms that are building on or integrating with x402.
 * **Tip.md** - A markdown-based tipping service that uses x402 for instant payments.
 * **Cloudflare** - Provides a deferred payment scheme for x402, allowing for multiple API calls before a single transaction.
 * **Circle** - Key partner in providing payment infrastructure and USDC as a stablecoin for x402 transactions.
-
----
-
-### **SDKs & Tools**
-
-Developer libraries and resources for integrating x402 into your applications.
-
-* **x402-Solana:** [https://github.com/8bitsats/x402-Solana](https://github.com/8bitsats/x402-Solana)
-    * Official documentation and a reference implementation for x402 on the Solana blockchain.
-* **x402-js:** [https://github.com/x402-foundation/x402-js](https://github.com/x402-foundation/x402-js)
-    * A JavaScript library to easily interact with the x402 protocol.
-* **OnchainKit:** [https://docs.cdp.coinbase.com/onchainkit/docs/welcome](https://docs.cdp.coinbase.com/onchainkit/docs/welcome)
-    * A library for building onchain apps.
-* **QuickNode:** [https://www.quicknode.com/guides/onchain-transactions/how-to-send-transactions-with-x402-and-coinbase](https://www.quicknode.com/guides/onchain-transactions/how-to-send-transactions-with-x402-and-coinbase)
-    * A guide on using QuickNode with x402 to send onchain transactions.
-
----
-
-### **Learning & Education**
-
-Tutorials, articles, and guides to help you get started with x402.
-
-* **x402 Quickstart Guide:** [https://docs.cdp.coinbase.com/x402/docs/quickstart](https://docs.cdp.coinbase.com/x402/docs/quickstart)
-* **Coinbase Developer Blog:** [https://www.coinbase.com/blog/introducing-x402-a-payments-protocol-for-ai-and-web3](https://www.coinbase.com/blog/introducing-x402-a-payments-protocol-for-ai-and-web3)
-    * Official announcement of x402.
-* **Google Cloud and Coinbase Partner on x402:** [https://cloud.google.com/blog/topics/public-sector/google-cloud-and-coinbase-partner-on-x402](https://cloud.google.com/blog/topics/public-sector/google-cloud-and-coinbase-partner-on-x402)
-    * Details on the collaboration between Google and Coinbase.
 
 ---
 
